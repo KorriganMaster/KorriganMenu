@@ -1,0 +1,25 @@
+Options :
+
+	items: Menu items with JSON format.
+		format: 
+			[
+				{
+					'title': '<string>',
+					
+					(optionnal)
+					'content': [{'title': '<string>', 'content': [...] | 'url': '<string>'}, {...}] 
+					    OR
+					'url': '<string>'
+				},
+				{
+					...
+				}
+			]
+			
+		Sample:
+			Cf demo.
+			
+			
+Methods :
+
+	init -> Call by default with $('<your_element_id>').korriganMenu({items: ...});
