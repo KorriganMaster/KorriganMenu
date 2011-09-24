@@ -1,3 +1,7 @@
+Require :
+	jquery 1.6.2 or greater
+	jquery-ui 1.8.16 or greater
+
 Options :
 
 	items: Menu items with JSON format.
