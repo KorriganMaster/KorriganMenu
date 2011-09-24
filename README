@@ -1,12 +1,16 @@
 Require :
+---------
 	jquery 1.6.2 or greater
 	jquery-ui 1.8.16 or greater
 
+
 Options :
+---------
 
 	items: Menu items with JSON format.
-		format: 
-			[
+		format :
+			
+			items: [
 				{
 					'title': '<string>',
 					
@@ -19,11 +23,24 @@ Options :
 					...
 				}
 			]
-			
-		Sample:
-			Cf demo.
-			
+	
 			
 Methods :
-
-	init -> Call by default with $('<your_element_id>').korriganMenu({items: ...});
+---------
+	init -> Call by default with : $('<your_element_id>').korriganMenu({items: ...});
+	
+	
+Use : 
+-----
+	yourfile.html
+	-------------
+		<div id="my_id"></div>
+		
+	yourfile.js
+	-----------
+		$('#my_id').korriganMenu({items: menuItemsJSONTable});
+		
+		
+Sample:
+-------
+	cf Demo/
