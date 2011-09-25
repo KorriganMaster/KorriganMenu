@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('#my_test_div').korriganMenu({
+	$('#dynmenu').korriganMenu({
 		'items': [
 			{
 				'title': 'Menu 1',
